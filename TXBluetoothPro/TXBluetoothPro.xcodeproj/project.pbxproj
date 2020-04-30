@@ -14,6 +14,7 @@
 		404E7636245B22B700E2308D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404E7635245B22B700E2308D /* Assets.xcassets */; };
 		404E7639245B22B700E2308D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404E7637245B22B700E2308D /* LaunchScreen.storyboard */; };
 		404E764A245B232100E2308D /* TXBluetooth.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 404E7649245B232100E2308D /* TXBluetooth.podspec */; };
+		404E764D245B24BD00E2308D /* TXCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 404E764C245B24BD00E2308D /* TXCentralManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		404E7638245B22B700E2308D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		404E763A245B22B700E2308D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		404E7649245B232100E2308D /* TXBluetooth.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TXBluetooth.podspec; path = ../TXBluetooth.podspec; sourceTree = "<group>"; };
+		404E764B245B24BD00E2308D /* TXCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCentralManager.h; sourceTree = "<group>"; };
+		404E764C245B24BD00E2308D /* TXCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCentralManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		404E7643245B231800E2308D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				404E764B245B24BD00E2308D /* TXCentralManager.h */,
+				404E764C245B24BD00E2308D /* TXCentralManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				404E7631245B22B700E2308D /* ViewController.m in Sources */,
+				404E764D245B24BD00E2308D /* TXCentralManager.m in Sources */,
 				404E762E245B22B700E2308D /* AppDelegate.m in Sources */,
 				404E762B245B22B700E2308D /* main.m in Sources */,
 			);
